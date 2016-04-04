@@ -1,4 +1,4 @@
-# Laravel PHP Framework
+# Laravel PHP Framework with docker compose
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
@@ -25,3 +25,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Requirements
+
+- docker toolbox
+  - docker
+  - docker-compose
+
+## Usage
+
+```
+cd docker
+docker-compose up -d
+```
+That's all!
+If you want to change config, edit `docker/docker-compose.yml`
